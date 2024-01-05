@@ -1,0 +1,139 @@
+body, ul {
+    margin: 0;
+    padding: 0;   
+}
+
+a {
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    margin: 30px;   
+    /* margin-top: 70px; */
+}
+  
+nav ul {
+    list-style: none; /* Remover os marcadores de lista padrão */
+    padding: 0; /* Remover o preenchimento padrão */
+    display: flex; /* Tornar a lista flexível */
+    padding-top: 50px;
+    padding-block-end: 2px;
+    justify-content: flex-start; /* Alinhar os itens à direita */
+    margin: 0; /* Remover margem padrão para evitar espaçamento não desejado */
+    margin-right: 80px;
+}
+  
+nav li {
+    margin-right: 20px; /* Adicionar espaçamento entre os itens (pode ajustar conforme necessário) */
+}
+
+nav a {
+    text-decoration: none;
+    color: #B22222	;
+}
+
+ .logo-item {
+    margin-right: auto; /* Empurra a logo para a borda esquerda */
+    margin-left: 40px;
+} 
+
+
+footer {
+    text-align: center; /* Centralizar o conteúdo dentro do elemento pai */
+    padding-top: 530px; /* Adicionar algum espaço no topo, ajuste conforme necessário */
+}
+
+footer p {
+    margin-bottom: 10px; /* Ajustar a margem inferior conforme necessário */
+}
+
+/* .foto-produto-capa {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    right: 0;
+} */
+
+
+/* .color1 {
+    color: #B22222;
+} */
+
+/* div p {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+} */
+
+/*https://br.freepik.com/psd-premium/modelo-de-design-de-interface-do-usuario-da-web-da-pagina-de-destino-do-menu-de-comida-de-restaurante_27504784.htm/*/
+
+
+.conteudo {
+    float: left;
+    width: 60%; /* Ajuste conforme necessário */
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    justify-content: center;
+}
+
+.imagem {
+    float: right;
+    width: 40%; /* Ajuste conforme necessário */
+}
+
+.efeito-imagem {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #B22222;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+.categoria {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #B22222;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.preco {
+    float: right;
+    color: #B22222;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #B22222;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
